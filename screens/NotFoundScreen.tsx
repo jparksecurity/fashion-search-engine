@@ -7,9 +7,6 @@ import { RootStackParamList } from "../types";
 export default function NotFoundScreen({
   navigation,
 }: StackScreenProps<RootStackParamList, "NotFound">) {
-
-  const var = '';
-  
   return (
     <View style={styles.container}>
       <Text style={styles.title}>This screen doesn't exist.</Text>
